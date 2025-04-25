@@ -1,1 +1,0 @@
-grid-cols-3

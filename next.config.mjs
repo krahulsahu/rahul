@@ -9,11 +9,12 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  devIndicators: {
-    buildActivity: false, // Disable the build activity indicator
-    disableRuntimeJS: false, // Disable runtime JS related indicators (optional)
-    disabled: true,
-  },
+  // basePath: "/rahul",
+  // devIndicators: {
+  //   buildActivity: true,
+  //   disableRuntimeJS: false, // Disable runtime JS related indicators (optional)
+  //   disabled: true,
+  // },
 };
 
 export default nextConfig
