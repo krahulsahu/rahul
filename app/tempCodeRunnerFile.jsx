@@ -1,0 +1,1 @@
+              words={["Full-Stack Developer", "DSA Enthusiast", "Tech Explorer", "MERN Stack Developer"]}
