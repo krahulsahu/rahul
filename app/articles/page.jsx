@@ -40,6 +40,14 @@ const sortedArticles = apiArticles.sort(
          </div>
          {/* Loading message while fetching articles */}
          <p className="text-center mt-10">Loading articles...</p>
+         <div className="space-y-6">
+           {staticArticles.map((article) => (
+             <div key={article.id} className="border-b pb-6">
+               <p className="text-sm text-muted-foreground">{article.date}</p>
+               <h3 className="text-xl font-semibold mt-1">{article.title}</h3>
+             </div>
+           ))}
+         </div>
        </div>
        <Footer />
      </main>
