@@ -140,5 +140,5 @@ export const projects = [
     link: "https://krahulsahu.github.io/MyPortfolio/",
     github: "https://github.com/krahulsahu/MyPortfolio",
     technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-  },
-];
+  }
+]
